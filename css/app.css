@@ -1,0 +1,22 @@
+body {
+      padding-top: 70px;
+}
+.article p {
+  margin: 0px 0px 7px;
+}
+.article-title {
+  font-size: 16px;
+}
+.article button {
+      margin: 0px 2px;
+}
+.user-icon {
+  padding-right: 10px;
+}
+.user-icon img {
+  width: 25px;
+  height: 25px;
+}
+.search-btn {
+  margin-left: 8px;
+}

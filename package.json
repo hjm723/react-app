@@ -1,0 +1,24 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/app.js",
+  "scripts": {
+    "watch-js": "watchify -t reactify js/app.jsx -o js/bundle.js -v",
+    "start": "npm run watch-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "flux": "^2.1.1",
+    "history": "^1.13.1",
+    "jquery": "^1.11.3",
+    "keymirror": "^0.1.1",
+    "object-assign": "^4.0.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.2",
+    "reactify": "^1.1.1"
+  }
+}
